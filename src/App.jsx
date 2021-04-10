@@ -1,7 +1,4 @@
 import React from 'react'
-import cardDatas from './CardDatas'
-import Card from './Card'
-import Header from './Header'
 import Monster from './Monster'
 import Eden from './Eden'
 import Badtrip from './Badtrip'
