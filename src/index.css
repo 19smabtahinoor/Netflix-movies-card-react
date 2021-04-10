@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+  margin:0;padding:0;
+}
+body{
+  background:linear-gradient(#000000c9,#000000c9),url('https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/97f2239d-63be-4527-99bf-7b4f5c9910c3/BD-en-20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+  padding-top:0px;
+  background-repeat: no-repeat;
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  
+  
+}
+
+#root{
+
+  font-family: 'Ubuntu', sans-serif;
+  color:#fff;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  padding: 44px;
+}
+.card_container{
+  transition:0.5s;
+  -webkit-transition:0.5s;
+  -moz-transition:0.5s;
+  -ms-transition:0.5s;
+  -o-transition:0.5s;
+
+
+}
+.card_container:hover{
+  transform: scale(0.92);
+  -webkit-transform: scale(0.92);
+  -moz-transform: scale(0.92);
+  -ms-transform: scale(0.92);
+  -o-transform: scale(0.92);
+}
+.card{
+  background:#25273C;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  width: 346px;
+}
+.image{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  width:100%;
+}
+.subtitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top:10px;
+  color:#a9a6a6;
+}
+.cardTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color:#fff;
+  font-size:30px;
+  margin-top: 10px;
+}
+
+.watch_btn{
+  width:100%;
+  height: 50px;
+  background:#F40612;
+  color:#fff;
+  border:none;
+  outline:none;
+  font-size:18px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition:0.5s;
+  -webkit-transition:0.5s;
+  -moz-transition:0.5s;
+  -ms-transition:0.5s;
+  -o-transition:0.5s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.watch_btn:hover{
+  background:white;
+  color:#F40612;
+}
+
+.netflix_logo{
+  color:#D32F2F;
+  font-size: 40px;
+  padding-top: 18px;
+}
+.netflixLogo{
+  width: 56px;
+  position: relative;
+  top: 18%;
+}
+
+.main_header {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  padding:10px;
+}
