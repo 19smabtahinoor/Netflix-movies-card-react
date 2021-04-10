@@ -1,5 +1,7 @@
 <h1>Project View: </h1><br>
+<a href="https://netflix-movies-card-react.vercel.app/">
 <img src="https://i.ibb.co/wBHTZ0d/netflix.png" alt="netflix" border="0">
+</a>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
