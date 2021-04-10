@@ -116,6 +116,21 @@ body{
 
 .main_header {
   display: grid;
-  grid-template-columns: 60px 1fr;
+  grid-template-columns:  60px 600px 1fr;
   padding:10px;
+}
+
+.search_box{
+  padding:20px;
+  border-radius:50px;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  -o-border-radius:50px;
+  width:500px;
+  height:12px;
+  margin-top:10px;
+  border:none;
+  outline:none;
+  font-size:18px;
 }
